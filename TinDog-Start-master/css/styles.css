@@ -1,0 +1,251 @@
+body {
+  font-family: 'Montserrat';
+}
+
+
+#title {
+  background-color: #ff4c68;
+  overflow: hidden;
+
+}
+
+
+#navbar {
+  padding-top: 50px;
+  padding-bottom: 4.5rem;
+
+}
+
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+
+
+
+.nav-item {
+  margin-left:20px;
+  margin-right:20px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 100;
+}
+
+.meet-h1 {
+  display: inline-block;
+  position: relative;
+  top: 5%;
+  bottom:25%;
+  padding-top:10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color:white;
+
+}
+
+#btn-left {
+  display: inline;
+  position: relative;
+  top: 15%;
+
+}
+
+#btn-right {
+  display: inline;
+  position: relative;
+  top: 15%;
+}
+
+
+
+
+#menu {
+  margin-right: 20px;
+}
+
+
+
+.container-fluid {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+button {
+  margin-right:15px;
+
+}
+
+
+.dog-img {
+  margin-top:10px;
+  width:60%;
+  transform: rotate(30deg) translateY(50px) translateX(75px);
+
+
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight:Bold;
+  font-size: 1.5rem;
+
+}
+
+i{
+  color: #ef8172;
+  margin-bottom: 10px;
+
+}
+
+i:hover {
+  color: #ff4c68;
+}
+
+
+.features{
+  text-align: center;
+  margin-top:100px;
+  margin-bottom: 100px;
+  padding-left: 50px;
+  padding-right:50px;
+  background-color: #fff;
+
+
+}
+
+
+.p-features {
+  color: #8f8f8f;
+  font-family: "Ubuntu";
+}
+.items {
+  margin: 20px auto 20px auto;
+  padding: 5%;
+}
+
+
+
+
+
+
+/* testimonial section */
+
+
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+em {
+  font-family: "Ubuntu";
+}
+
+/* press section */
+
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width:15%;
+  margin: 20px 20px 50px 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+.p-pricing {
+  font-family: "Ubuntu";
+  color: #8f8f8f;
+}
+
+#pricing {
+  padding:100px;
+}
+
+
+.pricing-column {
+  padding:3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+
+  .dog-img {
+    position: static;
+    transform: rotate(0);
+    margin-top:100px;
+  }
+}
+
+
+
+.p-cardbody {
+  font-family: "ubuntu";
+  color: #8f8f8f;
+}
+
+
+#cta {
+  background-color:#ff4c68;
+  padding: 100px;
+  text-align: center;
+}
+
+
+.footer-text {
+  color: #fff;
+  max-width:900px;
+  position:relative;
+  left:10%;
+  margin-bottom:50px;
+}
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding:100px;
+}
+
+
+
+.p-footer {
+  font-family: "Ubuntu";
+  color:#8f8f8f;
+  margin:20px auto 20px auto;
+}
+
+.footter-links {
+  margin: auto 20px auto 20px;
+}
